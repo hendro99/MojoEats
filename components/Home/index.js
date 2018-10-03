@@ -31,7 +31,7 @@ export default (MainScreenNavigator = TabNavigator(
           <Button vertical active={props.navigationState.index === 1}
               onPress={() => props.navigation.navigate("Add")}>
             <Icon active name="paper" />
-            <Text>Reg</Text>
+            <Text>Sign Up</Text>
           </Button>
           <Button vertical active={props.navigationState.index === 2}
               onPress={() => props.navigation.navigate("Tempat")}>
