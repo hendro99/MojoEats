@@ -32,7 +32,7 @@ export default class Home extends React.Component {
             <CardItem>
               <Body>
                 <Text>
-                   Welcome MojoEat APPS
+                  Welcome MojoEat APPS
                 </Text>
               </Body>
             </CardItem>
@@ -41,7 +41,6 @@ export default class Home extends React.Component {
                 <Card>
             <CardItem>
               <Left>
-               
                 <Body>
                   <Text>Street Food</Text>
                 </Body>
@@ -69,10 +68,9 @@ export default class Home extends React.Component {
             </CardItem>
           </Card>
 
-         <Card>
+        <Card>
             <CardItem>
               <Left>
-               
                 <Body>
                   <Text>Food LifeStyle</Text>
                 </Body>
@@ -95,7 +93,7 @@ export default class Home extends React.Component {
                 </Button>
               </Body>
               <Right>
-               <Text note>{tanggal}</Text>
+            <Text note>{tanggal}</Text>
               </Right>
             </CardItem>
           </Card>
